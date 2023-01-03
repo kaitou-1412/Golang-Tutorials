@@ -41,7 +41,7 @@ Get started with Hello, World.
     Hello, World!
   ```
 
-  The go run command is one of many go commands you'll use to get things done with Go. Use the following command to get a list of the others:
+  The go run command is one of many go commands you'll use to get things done with Go. Use the following command to get a list of the other commands:
   ```shell
     $ go help
   ```
