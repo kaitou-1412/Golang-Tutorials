@@ -12,4 +12,8 @@ func main() {
   var ptr = &myNumber
   fmt.Println("Reference of myNumber = Value of ptr = ", ptr)
   fmt.Println("Value of myNumber = Value pointed by ptr = ", *ptr)
+
+
+  *ptr = *ptr + 2
+  fmt.Println("New Val = ", myNumber)
 }
