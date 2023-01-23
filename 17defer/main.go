@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	// follows LIFO order in case of multiple defers
+	// one of the use cases of defer is for closing files
 	defer fmt.Println("Hello world")
 	defer fmt.Println("One")
 	defer fmt.Println("\nTwo")
